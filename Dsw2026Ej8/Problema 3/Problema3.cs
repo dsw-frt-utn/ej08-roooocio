@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Dsw2026Ej8.Problema_3
+{
+    public class Problema3
+    {
+        public string CompararCopias(int originalValue, Product product)
+        { 
+            int copiaValor = originalValue;
+            copiaValor++;
+            Product copiaProducto = product;
+            copiaProducto.CambiarDescripcion("Producto Modificado");
+            return $"{originalValue}-{copiaValor}-{product.GetDescription()}";
+        }
+    }
+}
+

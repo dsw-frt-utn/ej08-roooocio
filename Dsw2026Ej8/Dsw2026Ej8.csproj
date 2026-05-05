@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Dsw2026Ej8.Problema_4.Program</StartupObject>
+    <StartupObject>Dsw2026Ej8.Problema_5.Program</StartupObject>
   </PropertyGroup>
 
 </Project>
